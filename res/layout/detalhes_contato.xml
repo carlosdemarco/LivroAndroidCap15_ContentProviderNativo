@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="#eeeeee">
+	<TableRow>
+		<!--  escreve em azul -->
+		<TextView android:text="Nome:"    android:textColor="#0000ff" />
+		<!-- verde -->
+		<TextView android:id="@+id/nome"  android:width="240px" android:textColor="#00ff00" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Fone:" android:textColor="#0000ff" />
+		<!-- verde -->
+		<TextView android:id="@+id/fone" android:textColor="#00ff00" />
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/voltar" android:text="Voltar" 
+			    android:layout_width="wrap_content" 
+                   android:layout_height="wrap_content"  />
+	</TableRow>
+</TableLayout>

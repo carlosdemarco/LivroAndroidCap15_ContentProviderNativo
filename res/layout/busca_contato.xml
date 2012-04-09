@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="#eeeeee">
+	<TableRow>
+		<TextView android:text="Digite o Nome:" />
+
+		<EditText android:id="@+id/nome" 
+				android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" />
+
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/buscar" android:text="Buscar por Nome" />
+	</TableRow>
+	
+</TableLayout>
